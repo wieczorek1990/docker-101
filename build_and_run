@@ -1,0 +1,6 @@
+#!/bin/sh
+
+name=cli
+
+docker build . -t $name
+docker run -it $name
